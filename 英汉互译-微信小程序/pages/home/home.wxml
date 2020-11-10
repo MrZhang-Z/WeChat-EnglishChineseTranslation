@@ -1,0 +1,49 @@
+<!--pages/home/home.wxml-->
+
+<view class='box'>
+
+<!--轮播--> 
+
+  <swiper autoplay='ture' indicator-color='white' indicator-dots='true' interval='2000'>
+
+    <swiper-item>
+      <text class='text'>星座配对</text>
+      <image src='/images/constellation.jfif'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>手持弹幕</text>
+      <image src='/images/barrage.jfif'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>天气预报</text>
+      <image src='/images/weather.jfif'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>英汉互译</text>
+      <image src='/images/translat.jfif'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>视频播放</text>
+      <!-- <image src='/images/video.jfif'></image> -->
+      <video src='https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fb00000bnie8hfibkts3boid35g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1' autoplay='autoplay' muted='muted' loop='loop'></video>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>音乐播放</text>
+      <image src='/images/music.jfif'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <text class='text'>搞笑段子</text>
+      <image src='/images/joke.jfif'></image>
+    </swiper-item>
+
+  </swiper>
+
+</view>
+
+

@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class='box' style='background:url(https://s2.ax1x.com/2020/01/02/lYu2P1.jpg)'>
+
+  <view class='jian'></view>
+
+<view class='title' bindtap=''>
+  <text class='ying'>英</text>
+  <text class='han'>汉</text>
+  <text class='hu'>互</text>
+  <text class='yi'>译</text>
+  <text class='xiao'>小</text>
+  <text class='neng'>能</text>
+  <text class='shou'>手</text>
+</view>
+
+  <view class='jian'></view>
+
+  <view class='from'>
+    <input bindinput='getinput' type='text' placeholder='请输入需要翻译的内容'></input>
+    <!-- <textarea bindinput='getinput' type='text' placeholder='请输入需要翻译的内容'></textarea> -->
+  </view>
+
+  <view class='jian'></view>
+  
+  <view class='to'>
+    <text class='yiwen'>{{to}}</text>
+  </view>
+
+  <view class='jian'></view>
+
+  <view class='button'>
+    <button bindtap='translate'>翻译</button>
+  </view>
+
+  <view bindtap='getsex' data-id='nihao'>
+
+  </view>
+
+</view>
